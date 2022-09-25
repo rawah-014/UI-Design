@@ -5,11 +5,11 @@
   
   .text-block {
     position: absolute;
-    bottom: 222px;
+    bottom: 217px;
     right: 685px;
     left: 97px;
    
-background: linear-gradient(53.28deg, #670FCC 9.25%, #882DF1 91.55%);
+/* background: linear-gradient(53.28deg, #670FCC 9.25%, #882DF1 91.55%); */
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -19,10 +19,58 @@ background: linear-gradient(53.28deg, #670FCC 9.25%, #882DF1 91.55%);
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 69.4654px;
+    font-size: 60.465px;;
     line-height: 87px; 
     /* or 125% */
     letter-spacing: -0.02em;
     text-transform: capitalize;
 
+    }
+    .loyalty{
+      color: #FF8B00 !important;
+    }
+    .para{
+      font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 19.296px;
+line-height: 29px;
+
+/* or 150% */
+
+/* Primary/200 */
+color: #E9D7FE;
+    }
+    .demo{
+      box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 28px;
+gap: 12px;
+
+width: 138.76px;
+height: 58.87px;
+
+/* #FFFFFF */
+background: #FFFFFF !important;
+border: 1px solid rgba(136, 45, 241, 0.16);
+border-radius: 15.4368px;
+    }
+
+    .joinnow{
+      /* #F58B0B */
+background: #F58B0B;
+border: 0.964798px solid rgba(136, 45, 241, 0.16);
+border-radius: 15.4368px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15.4368px 27.0143px;
+gap: 11.58px;
     }

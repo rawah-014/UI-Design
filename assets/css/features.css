@@ -75,14 +75,19 @@ border-radius: 12px;
     }
  .meadium-header{
     font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 30px;
-
-/* identical to box height, or 150% */
-
-color: #101828;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.296px;
+    line-height: 29px;
+    
+    /* identical to box height, or 150% */
+    
+    /* #301155 */
+    color: #301155;
+    
+    transform: rotate(90deg);
+    
+    
  }
  .rotate{
 transform: rotate(90deg);

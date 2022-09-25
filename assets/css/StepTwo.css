@@ -1,0 +1,135 @@
+.cup-section{
+    height: auto;
+left: 800px;
+top: 348.08px;
+
+background: #9D4EF9;
+box-shadow: 9.72152px 12.1519px 19.443px rgba(0, 0, 0, 0.05);
+backdrop-filter: blur(14.5823px);
+
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 17.8605px;
+}
+.step-header{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16.8046px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+.step-content{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14.472px;
+line-height: 18px;
+
+/* identical to box height */
+text-transform: uppercase;
+
+/* Base/White */
+color: #FFFFFF;
+}
+.points{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 22.4177px;
+line-height: 27px;
+
+color: #FFFFFF;
+}
+.step3-content{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+/* identical to box height */
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+.res-food{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+.res-food-des{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.drag-area{
+  border: 2px dashed black;
+  height: 239px;
+  width: 374px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.drag-area.active{
+  border: 2px solid black;
+}
+.drag-area .icon{
+  font-size:  59px;
+  color: black;
+}
+.drag-area header{
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+}
+.drag-area span{
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  margin: 10px 0 15px 0;
+}
+.drag-area button{
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #5256ad;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.drag-area img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}

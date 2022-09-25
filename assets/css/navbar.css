@@ -1,0 +1,68 @@
+.navbar {
+    box-sizing: border-box;
+  
+    /* Base/White */
+    background: #ffffff;
+    border-bottom: 0.964798px solid #f4eefa;
+  } 
+  .navlink {
+    /* Text md/Medium */
+    font-family: "Inter" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+  
+    /* identical to box height, or 150% */
+  
+    /* #756884 */
+    color: #756884 !important;
+
+  }
+  .loginbutton {
+    /* Text md/Medium */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  
+    /* #756884 */
+    color: #756884;
+  }
+  .loginbutton :hover{
+    color: #fff !important;
+    background: #882df1 !important;
+  }
+  .joinus {
+    background: #882df1;
+    border: 0.964798px solid rgba(255, 255, 255, 0.16);
+    box-shadow: 0px 8.68318px 19.296px -4.82399px rgba(136, 45, 241, 0.2);
+    border-radius: 7.71838px;
+    color: white;
+    /* Text md/Medium */
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  
+    /* identical to box height, or 150% */
+  
+    color: #ffffff;
+  }
+  
+  .navlink:hover {
+    
+    color: #882df1 !important;
+  
+  }
+  .hash{
+    text-decoration: none;
+     border : none ;
+      color:white
+  }
+  .hash:hover{
+    color: #756884;;
+  }
+  

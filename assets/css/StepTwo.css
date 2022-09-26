@@ -133,3 +133,9 @@ color: #FFFFFF;
   object-fit: cover;
   border-radius: 5px;
 }
+#bgcolor{
+ 
+}
+#bgimg{
+  display: none;
+}

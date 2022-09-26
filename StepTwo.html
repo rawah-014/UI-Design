@@ -18,6 +18,14 @@
     <link rel="stylesheet" href="assets/css/login.css" />
     <link rel="stylesheet" href="assets/css/StepTwo.css" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+      function background(x){
+        if(x==1)
+        document.getElementById('bgcolor').style.display='block'
+        else
+        document.getElementById('bgcolor').style.display='none'
+      }
+    </script>
     <title>Step Two</title>
   </head>
   <body>
@@ -110,19 +118,73 @@
                   Background Type
                 </label>
                 <div>
+                    <div class="form-check  form-check-inline">
+                      <input class="form-check-input" type="radio" onclick="background(1)" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <label class="form-check-label" for="exampleRadios1">
+                        Default radio
+                      </label>
+                    </div>
+                    <div class="form-check  form-check-inline">
+                      <input class="form-check-input" type="radio" onclick="background(1)" name="exampleRadios" id="exampleRadios2" value="option2">
+                      <label class="form-check-label" for="exampleRadios2">
+                        Second 
+                      </label>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-8">
+              <div class="form-group">
+                <label class="login-label form-label">
+                  Background Type
+                </label>
+                <div>
                 <div class="form-check  form-check-inline">
-                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                  <label class="form-check-label" for="exampleRadios1">
-                    Default radio
+                  <input class="form-check-input" type="radio"  name="bg-color" id="1"  checked>
+                  <label class="form-check-label" for="1">
+                    Color
                   </label>
                 </div>
                 <div class="form-check  form-check-inline">
-                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                  <label class="form-check-label" for="exampleRadios2">
-                    Second 
+                  <input class="form-check-input" type="radio"   name="bg-img" id="2" >
+                  <label class="form-check-label" for="2">
+                    Image
                   </label>
                 </div>
               </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4" >
+            <div class="col-md-8">
+              <div class="form-group">
+                <label class="login-label form-label">Choose Background Color</label>
+                <input 
+                  class="login-input form-control"
+                  type="color"
+                  placeholder="rewards_value"
+                
+                  id="rewards_value_field"
+                 
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4" id="bgimg">
+            <div class="col-md-8">
+              <div class="form-group">
+                <label class="login-label form-label">Choose Background Image</label>
+                <div class="drag-area">
+                  <div class="icon"><img src="assets/icons/Featured icon.png" /></div>
+                  
+                  <p>Drag & Drop to Upload File</p>
+                  <p>OR</p>
+                  <button>Browse File</button>
+                  <input type="file" hidden>
+                </div>
+
               </div>
             </div>
           </div>
@@ -226,7 +288,7 @@
             </div>
             <div class="row m-3">
                   <div class="col-md-3">
-                    <img src="assets/icons/Group 26.png" />
+                    <img src="assets/icons/Group 26.png" id="bgcolor"/>
                   </div>
                   <div class="col-md-3">
                     <img src="assets/icons/Group 26.png"  />

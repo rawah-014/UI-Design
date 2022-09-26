@@ -5,7 +5,7 @@
     background: #ffffff;
     border-bottom: 0.964798px solid #f4eefa;
   } 
-  .navlink {
+  .nav-link {
     /* Text md/Medium */
     font-family: "Inter" !important;
     font-style: normal !important;
@@ -51,8 +51,11 @@
   
     color: #ffffff;
   }
+  .joinus:hover{
+    background-color: #fff;
+  }
   
-  .navlink:hover {
+  .nav-link:hover {
     
     color: #882df1 !important;
   

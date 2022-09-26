@@ -1,4 +1,8 @@
 
+
+h2{
+	color: #7F56D9;
+}
 #form {
 	text-align: center;
 	position: relative;
@@ -77,6 +81,11 @@
 	position: relative;
 	font-weight: 400;
 
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
 }
 
 #progressbar #step1:before {

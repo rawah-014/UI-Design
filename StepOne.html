@@ -16,179 +16,184 @@
     <link rel="stylesheet" href="assets/css/navbar.css" />
     <link rel="stylesheet" href="assets/css/login.css" />
     <link rel="stylesheet" href="assets/css/StepOne.css" />
+    <link rel="stylesheet" href="assets/css/StepTwo.css" />
     <title>Create Business Account</title>
   </head>
   <body>
     <div>
-        <div class="row">
-         
-          <div class="row text-center">
-            <div class="container mt-5">
-              <div class="row">
-                <div class="col-md-6 offset-md-3 w-50">
-                  <div class="row">
-                    <div  class="col-md-1">
-                      <div class="">
-                        <img src="assets/icons/user.png" class="icon-style p-3" alt="icon" />
-                      </div>
-                    </div>
-                    <div class="col-md-4 text-start">
-                      <h class="title-login">Sign up</h>
-                      <p class="login-content  pt-3">
-                        Start your 30-day free trial.
-                      </p>
+      <div class="row">
+        <div class="row text-center">
+          <div class="container mt-5">
+            <div class="row">
+              <div class="col-md-6 offset-md-3 w-50">
+                <div class="row">
+                  <div class="col-md-1">
+                    <div class="">
+                      <img
+                        src="assets/icons/user.png"
+                        class="icon-style p-3"
+                        alt="icon"
+                      />
                     </div>
                   </div>
-                  <form class="text-start"  onSubmit={submitHandler} encType='multipart/form-data'>
-                    <div class="mt-4 row">
-                      <div class="col-md-8">
-                        <div class="form-group">
-                          <label class="login-label form-label">Name</label>
-                          <input
-                            class="login-input form-control"
-                            type="text"
-                           
-                            id="ownerName_field"
-                            name="ownerName"
-                         
-                            placeholder="Owner Name"
-                          />
-                        </div>
-                      </div>
-                    </div>
-             
-                    <div class="row mt-4">
-                      <div class="col-md-8">
-                        <div class="form-group">
-                          <label class="login-label form-label">Owner Name</label>
-                          <input
-                            class="login-input form-control"
-                            type="text"
-                          
-                            id="name_field"
-                            name="name"
-                         
-                            placeholder="Name"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mt-4">
-                      <div class="col-md-8">
-                        <div class="form-group">
-                          <label class="login-label form-label">Phone</label>
-                          <input
-                            class="login-input form-control"
-                            type="number"
-                          
-                            id="phone_field"
-                            name="phone"
-                         
-                            placeholder="Phone"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mt-4">
-                      <div class="col-md-8">
-                        <div class="form-group">
-                          <label class="login-label form-label">
-                            Business Type
-                          </label>
-                          <select
-                            aria-label="Business Type"
-                            class="login-input form-control"
-                            id="businessTypeId_field"
-                            name="businessTypeId"
-                            required
-                         
-                          >
-                            <option>Business Type</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                          </select>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mt-4">
-                      <div class="col-md-8">
-                        <div class="form-group">
-                          <label class="login-label form-label">
-                            Location
-                          </label>
-                          <div class="row">
-                            <div class="col-md-6">
-                              <input
-                                class="login-input form-control"
-                                type="text"
-                                placeholder="Country"
-                              
-                              />
-                            </div>
-                            <div class="col-md-6">
-                            <select
-                            aria-label="Business Type"
-                            class="login-input form-control"
-                            id="cityId_field"
-                            name="cityId"
-                            required
-                        
-                          >
-                            <option>City</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                          </select>
-                            </div>
-                          </div>
-                          <div class='form-group'>
-                                      <label class="form-label">Images</label>
-  
-                                      <div class="file-upload-wrapper">
-                                        <input type="file" id="input-file-now" class="file-upload" />
-                                      </div>
-  
-  
-                                  </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row mt-4">
-                      <div class="col-md-8">
-                       
-                        <button
-                          class="btn contact-button w-100 p-2"
-                          type="submit"
-                        >
-                          <span class="contact-btn-text"> Sign in</span>
-                        </button>
-                       
-                      </div>
-                    </div>
-                    <div class="row text-center mt-4">
-                      <div class="col-md-8">
-                        <span class="login-content">
-                          Already have an account?
-                        </span>
-                        <span class="forget">Login</span>
-                      </div>
-                    </div>
-                  </form>
+                  <div class="col-md-4 text-start">
+                    <h class="title-login">Sign up</h>
+                    <p class="login-content pt-3">
+                      Start your 30-day free trial.
+                    </p>
+                  </div>
                 </div>
+                <form
+                  class="text-start"
+                  onSubmit="{submitHandler}"
+                  enctype="multipart/form-data"
+                >
+                  <div class="mt-4 row">
+                    <div class="col-md-8">
+                      <div class="form-group">
+                        <label class="login-label form-label">Name</label>
+                        <input
+                          class="login-input form-control"
+                          type="text"
+                          id="ownerName_field"
+                          name="ownerName"
+                          placeholder="Owner Name"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row mt-4">
+                    <div class="col-md-8">
+                      <div class="form-group">
+                        <label class="login-label form-label">Owner Name</label>
+                        <input
+                          class="login-input form-control"
+                          type="text"
+                          id="name_field"
+                          name="name"
+                          placeholder="Name"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="col-md-8">
+                      <div class="form-group">
+                        <label class="login-label form-label">Phone</label>
+                        <input
+                          class="login-input form-control"
+                          type="number"
+                          id="phone_field"
+                          name="phone"
+                          placeholder="Phone"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="col-md-8">
+                      <div class="form-group">
+                        <label class="login-label form-label">
+                          Business Type
+                        </label>
+                        <select
+                          aria-label="Business Type"
+                          class="login-input form-control"
+                          id="businessTypeId_field"
+                          name="businessTypeId"
+                          required
+                        >
+                          <option>Business Type</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="col-md-8">
+                      <div class="form-group">
+                        <label class="login-label form-label"> Location </label>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <input
+                              class="login-input form-control"
+                              type="text"
+                              placeholder="Country"
+                            />
+                          </div>
+                          <div class="col-md-6">
+                            <select
+                              aria-label="Business Type"
+                              class="login-input form-control"
+                              id="cityId_field"
+                              name="cityId" 
+                              required
+                            >
+                              <option>City</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="col-md-8">
+                      <div class="form-group">
+                        <label class="login-label form-label">Brand Logo</label>
+                        <div class="drag-area">
+                          <div class="icon"><img src="assets/icons/Featured icon.png" /></div>
+                          
+                          <p>Drag & Drop to Upload File</p>
+                          <p>OR</p>
+                          <button>Browse File</button>
+                          <input type="file" hidden>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row mt-4">
+                    <div class="col-md-8">
+                      <button
+                        class="btn contact-button w-100 p-2"
+                        type="submit"
+                      >
+                        <span class="contact-btn-text"> Sign in</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="row text-center mt-4">
+                    <div class="col-md-8">
+                      <span class="login-content">
+                        Already have an account?
+                      </span>
+                      <span class="forget">Login</span>
+                    </div>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
-         
+    </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="assets/js/StepTwo.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
   </body>
